@@ -9,6 +9,5 @@ have a file extension of .blg
 1. open a command windows i.e. cmd.exe
 2. type cscript createcounter.vbs
 3. answer the questions.
-4. stop the counter after a few days, then zip up the binary files and email them to hosting.ms@zenintenet.co.uk
 
 
