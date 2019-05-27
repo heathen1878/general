@@ -1,0 +1,10 @@
+\LogicalDisk(*)\% Free Space - percentage of total usable free disk space
+\Memory\Cache Bytes - amount of memory being used for file cache. Should never go above 300MB, if it does could be a disk bottleneck
+\PhysicalDisk(*)\Avg. Disk Queue Length - average number of read and write requests queued for that particular disk (2 x no. of spindles is acceptable)
+\PhysicalDisk(*)\Avg. Disk sec/Read - read latency 
+\PhysicalDisk(*)\Avg. Disk sec/Write - write latency
+\PhysicalDisk(*)\Disk Writes/sec - no. of write operations (IOPs)
+\PhysicalDisk(*)\Disk reads/sec - no. of read operations (IOPs)
+\PhysicalDisk(*)\Disk Read Bytes/sec - no. of bytes read per operation             
+\PhysicalDisk(*)\Disk Write Bytes/sec - no. of bytes written per operation   
+\PhysicalDisk(*)\Split IO/Sec - high no. of split io can be caused by fragmentation or requests which exceed a single IO; maybe the application IO size and the disk IO size aren't optimally configured.

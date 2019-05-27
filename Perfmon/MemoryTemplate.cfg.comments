@@ -1,0 +1,10 @@
+\Memory\% Committed Bytes In Use - percentage of committed physical memory is use for which space has been reserved in the paging file
+\Memory\Available MBytes - amount of memory immediately available to use
+\Memory\Free System Page Table Entries - a value less than 5000 could indicate a memory leak
+\Memory\Pages/sec - no. of pages read from or written to disk when physical memory cannot satisfy the request
+\Memory\Pool Nonpaged Bytes - must not exceed 175MB; this is where nonpagable system objects exist when they're allocated.
+\Memory\Pool Paged Bytes - must not exceed 250MB; this is where pageable system objects exist when allocated.
+\Memory\Page Faults/sec - no. of hard and soft faults; memory\page reads /sec and physicaldisk\disk read bytes / sec / 4096 will give a better 
+\Memory\Pages Input/sec - no. of pages read into memory
+\Memory\Pages Output/sec - no. pages written out of memory
+\Memory\Page Reads / sec - no. of page reads to resolve hard faults i.e. paging.

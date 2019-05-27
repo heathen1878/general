@@ -1,0 +1,4 @@
+\Processor(*)\% Interrupt Time - percentage of time the processor was serving kernel mode operations
+\Processor(*)\% Processor Time - percentage of time the processor was busy
+\Processor(*)\% User Time - percentage of time the processor was serving user mode operations
+\System\Processor Queue Length - no. of requests in the processors queue; typically around 2 x the no. of cores.
